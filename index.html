@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eddyson Tristan Aromin - IT Professional Portfolio. BS Information Technology graduate from Saint Louis University Baguio." />
+    <meta name="keywords" content="portfolio, IT, software developer, web developer, Eddyson Aromin" />
+    <title>codED | Eddyson Tristan Aromin - Portfolio</title>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="preloader-spinner"></div>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      // Remove preloader when app is ready
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          document.getElementById('preloader')?.classList.add('loaded')
+        }, 400)
+      })
+    </script>
+  </body>
+</html>
