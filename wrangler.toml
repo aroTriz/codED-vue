@@ -1,0 +1,3 @@
+name = "codED-vue"
+compatibility_date = "2025-07-11"
+pages_build_output_dir = "dist"
